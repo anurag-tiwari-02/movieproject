@@ -1,0 +1,91 @@
+body {
+  background-color: aliceblue;
+  display: grid;
+}
+
+.head {
+  width: 300px;
+  height: 10px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-left: 500px;
+}
+
+.searchimage {
+  height: 20px;
+  width: 20px;
+}
+
+.head > input {
+  flex: 1;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 50%;
+  margin: 3% 12%;
+  text-align: center;
+}
+
+.movie-info {
+  height: 80%;
+  width: 50%;
+  display: block;
+  border-radius: 10px;
+  border: 0.9px solid grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  place-self: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  transition: 1s;
+}
+
+.movie-info:hover {
+  transition: 0.5s;
+  box-shadow: 1px 1px 20px 8px grey;
+  cursor: all-scroll;
+}
+
+.image {
+  height: 60%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.movie-name {
+  color: darkblue;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.movie-name :hover {
+  color: red;
+}
+
+h4 {
+  font-weight: 200;
+  font-size: 15px;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  height: 200%;
+  width: 100%;
+  background-color: white;
+  border: 1px solid white;
+  color: gray;
+  font-weight: bold;
+  font-size: 15px;
+}
